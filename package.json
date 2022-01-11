@@ -1,0 +1,28 @@
+{
+  "name": "dialogflow-webhook-template",
+  "version": "1.0.0",
+  "description": "Template de Webhook para o Dialogflow fulfillment.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/App.js",
+    "dev": "nodemon src/App.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fugishima/Dialogflow-Webhook-Template.git"
+  },
+  "author": "Tiago Seiti Fugishima",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fugishima/Dialogflow-Webhook-Template/issues"
+  },
+  "homepage": "https://github.com/Fugishima/Dialogflow-Webhook-Template#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
