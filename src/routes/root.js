@@ -1,14 +1,8 @@
 const express = require('express')
 const router = express.Router()
 
-const rootController = require('../controllers/rootController')
+const RootController = require('../controllers/RootController')
 
-router.get('', (req, res) => {
-    res.status(200).send({
-        status: 'On-line'
-    })
-})
-
-router.post('', rootController.main)
+router.get('', RootController.GET)
 
 module.exports = router
